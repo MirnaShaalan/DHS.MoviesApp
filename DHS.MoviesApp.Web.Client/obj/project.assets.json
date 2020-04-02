@@ -4333,6 +4333,48 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "DHS.MoviesApp.Domain.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1"
+        },
+        "compile": {
+          "bin/placeholder/DHS.MoviesApp.Domain.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DHS.MoviesApp.Domain.Entities.dll": {}
+        }
+      },
+      "DHS.MoviesApp.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "DHS.MoviesApp.Domain.Entities": "1.0.0",
+          "DHS.MoviesApp.Repository.Interfaces": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1"
+        },
+        "compile": {
+          "bin/placeholder/DHS.MoviesApp.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DHS.MoviesApp.Repository.dll": {}
+        }
+      },
+      "DHS.MoviesApp.Repository.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "DHS.MoviesApp.Domain.Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1"
+        },
+        "compile": {
+          "bin/placeholder/DHS.MoviesApp.Repository.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DHS.MoviesApp.Repository.Interfaces.dll": {}
+        }
       }
     }
   },
@@ -11785,10 +11827,26 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "DHS.MoviesApp.Domain.Entities/1.0.0": {
+      "type": "project",
+      "path": "../DHS.MoviesApp.Domain.Entities/DHS.MoviesApp.Domain.Entities.csproj",
+      "msbuildProject": "../DHS.MoviesApp.Domain.Entities/DHS.MoviesApp.Domain.Entities.csproj"
+    },
+    "DHS.MoviesApp.Repository/1.0.0": {
+      "type": "project",
+      "path": "../DHS.MoviesApp.Repository/DHS.MoviesApp.Repository.csproj",
+      "msbuildProject": "../DHS.MoviesApp.Repository/DHS.MoviesApp.Repository.csproj"
+    },
+    "DHS.MoviesApp.Repository.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../DHS.MoviesApp.Repository.Interfaces/DHS.MoviesApp.Repository.Interfaces.csproj",
+      "msbuildProject": "../DHS.MoviesApp.Repository.Interfaces/DHS.MoviesApp.Repository.Interfaces.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "DHS.MoviesApp.Repository >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.1",
@@ -11824,7 +11882,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Mirna Shaalan\\Desktop\\DHS.MoviesApp\\DHS.MoviesApp.Repository\\DHS.MoviesApp.Repository.csproj": {
+              "projectPath": "C:\\Users\\Mirna Shaalan\\Desktop\\DHS.MoviesApp\\DHS.MoviesApp.Repository\\DHS.MoviesApp.Repository.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

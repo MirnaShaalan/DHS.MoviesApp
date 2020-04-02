@@ -45,6 +45,7 @@ $(document).on('submit', '#editMovieForm', function (e) {
         contentType: false,
         processData: false,
         success: function (response) {
+            alert($(`#${added_record}`))
             $(`#${movieId}`).empty();
             let grid =`
                     <img class="card-img-top" style="width:100%; height:100px; margin-top: 15px;" src="data:image/png;base64, ${response.image}">
