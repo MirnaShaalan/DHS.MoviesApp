@@ -13,31 +13,31 @@
     @foreach (var movie in Model)
     {
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" >
-            <div id="added_record" style="margin-bottom: 15px;"></div>
-            <div id="@movie.Id" class="card mr-3" style="width: 100%; margin-right:10px">
-                <div class="test1">
-                    @if (movie.Image == null)
-                    {
-                        <img id="movie-image" class="card-img-top image" style="width:100%; height:100px;" src="https://bonitaselfdefense.com/wp-content/uploads/2017/04/default-image.jpg" >
+            <div id="added_record" style="margin-bottom: 15px;"> </div>
+                    <div id="@movie.Id" class="card mr-3" style="width: 100%; margin-right:10px">
+                        <div class="test1">
+                            @if (movie.Image == null)
+                            {
+                                <img id="movie-image" class="card-img-top image" style="width:100%; height:100px;" src="https://bonitaselfdefense.com/wp-content/uploads/2017/04/default-image.jpg">
 
-                    }
-                    else
-                    {
-                        <img id="movie-image" class="card-img-top image" style="width:100%; height:100px;" src="data:image/png;base64, @movie.Image" >
+                            }
+                            else
+                            {
+                                <img id="movie-image" class="card-img-top image" style="width:100%; height:100px;" src="data:image/png;base64, @movie.Image">
 
-                    }
-                    <div class="card-body">
-                        <h5 class="card-title name">@movie.Name</h5>
-                        <p class="card-text">@movie.Discription</p>
-                        <a href="#editMovieModal" onclick="EditMovieClick(this,'@movie.Id')" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit"></i><i class="fas fa-edit"></i></a>
-                        <a href="#deleteMovieModal" onclick="DeleteMovieClick('@movie.Id')" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete"></i><i class="fas fa-trash-alt"></i></a>
+                            }
+                            <div class="card-body">
+                                <h5 class="card-title name">@movie.Name</h5>
+                                <p class="card-text">@movie.Discription</p>
+                                <a href="#editMovieModal" onclick="EditMovieClick(this,'@movie.Id')" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit"></i><i class="fas fa-edit"></i></a>
+                                <a href="#deleteMovieModal" onclick="DeleteMovieClick('@movie.Id')" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete"></i><i class="fas fa-trash-alt"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    }
+                }
 
-</div>
+            </div>
 
 
 <!-- Add Modal HTML -->

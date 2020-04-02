@@ -11,13 +11,17 @@
         processData: false,
         success: function (response) {
             let grid = `
+            <div id="${response.id}" class="card mr-3" style="width: 100%; margin-right:10px">
+                <div class="test1">
                     <img class="card-img-top" style="width:100%; height:100px; margin-top: 15px;" src="data:image/png;base64, ${response.image}">
                     <div class="card-body">
-                    <h5 class="card-title name">${response.name}</h5>
-                    <p class="card-text"></p>
-                    <a href="#editMovieModal" onclick="EditMovieClick(this,'${response.id}')" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit"></i><i class="fas fa-edit"></i></a>
-                    <a href="#deleteMovieModal" onclick="DeleteMovieClick('${response.id}')" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete"></i><i class="fas fa-trash-alt"></i></a>
-                    </div>`;
+                        <h5 class="card-title name">${response.name}</h5>
+                        <p class="card-text"></p>
+                        <a href="#editMovieModal" onclick="EditMovieClick(this,'${response.id}')" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit"></i><i class="fas fa-edit"></i></a>
+                        <a href="#deleteMovieModal" onclick="DeleteMovieClick('${response.id}')" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete"></i><i class="fas fa-trash-alt"></i></a>
+                    </div>
+                </div>
+            </div>`;
             $("#added_record").append(grid);
         }
     }); 
@@ -36,6 +40,7 @@ $(document).on('submit', '#editMovieForm', function (e) {
     formData.append("Name", movieName);
     formData.append("Image", movieImage);
     formData.append("postedFile", movieImage);
+    console.log("KI")
 
     $.ajax({
         cache: false,
@@ -45,8 +50,10 @@ $(document).on('submit', '#editMovieForm', function (e) {
         contentType: false,
         processData: false,
         success: function (response) {
-            alert($(`#${added_record}`))
-            $(`#${movieId}`).empty();
+            console.log(response)
+
+            console.log($(`#added_record > #${movieId}`).empty())
+            $(`#added_record > #${movieId}`).empty()
             let grid =`
                     <img class="card-img-top" style="width:100%; height:100px; margin-top: 15px;" src="data:image/png;base64, ${response.image}">
                     <div class="card-body">
