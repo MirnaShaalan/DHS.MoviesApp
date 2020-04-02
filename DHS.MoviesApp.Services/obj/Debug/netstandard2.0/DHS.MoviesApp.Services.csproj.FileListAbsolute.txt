@@ -1,0 +1,16 @@
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Services\bin\Debug\netstandard2.0\DHS.MoviesApp.Services.deps.json
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Services\bin\Debug\netstandard2.0\DHS.MoviesApp.Services.dll
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Services\obj\Debug\netstandard2.0\DHS.MoviesApp.Services.csprojAssemblyReference.cache
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Services\obj\Debug\netstandard2.0\DHS.MoviesApp.Services.csproj.CoreCompileInputs.cache
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Services\obj\Debug\netstandard2.0\DHS.MoviesApp.Services.AssemblyInfoInputs.cache
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Services\obj\Debug\netstandard2.0\DHS.MoviesApp.Services.AssemblyInfo.cs
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Services\bin\Debug\netstandard2.0\DHS.MoviesApp.Services.pdb
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Services\bin\Debug\netstandard2.0\DHS.MoviesApp.Domain.Entities.dll
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Services\bin\Debug\netstandard2.0\DHS.MoviesApp.Repository.Interfaces.dll
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Services\bin\Debug\netstandard2.0\DHS.MoviesApp.Services.Interfaces.dll
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Services\bin\Debug\netstandard2.0\DHS.MoviesApp.Repository.Interfaces.pdb
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Services\bin\Debug\netstandard2.0\DHS.MoviesApp.Services.Interfaces.pdb
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Services\bin\Debug\netstandard2.0\DHS.MoviesApp.Domain.Entities.pdb
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Services\obj\Debug\netstandard2.0\DHS.MoviesApp.Services.csproj.CopyComplete
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Services\obj\Debug\netstandard2.0\DHS.MoviesApp.Services.dll
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Services\obj\Debug\netstandard2.0\DHS.MoviesApp.Services.pdb

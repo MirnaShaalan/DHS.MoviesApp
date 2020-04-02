@@ -1,0 +1,9 @@
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Domain.Entities\bin\Debug\netstandard2.0\DHS.MoviesApp.Domain.Entities.deps.json
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Domain.Entities\bin\Debug\netstandard2.0\DHS.MoviesApp.Domain.Entities.dll
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Domain.Entities\obj\Debug\netstandard2.0\DHS.MoviesApp.Domain.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Domain.Entities\obj\Debug\netstandard2.0\DHS.MoviesApp.Domain.Entities.AssemblyInfoInputs.cache
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Domain.Entities\obj\Debug\netstandard2.0\DHS.MoviesApp.Domain.Entities.AssemblyInfo.cs
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Domain.Entities\bin\Debug\netstandard2.0\DHS.MoviesApp.Domain.Entities.pdb
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Domain.Entities\obj\Debug\netstandard2.0\DHS.MoviesApp.Domain.Entities.dll
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Domain.Entities\obj\Debug\netstandard2.0\DHS.MoviesApp.Domain.Entities.pdb
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Domain.Entities\obj\Debug\netstandard2.0\DHS.MoviesApp.Domain.Entities.csprojAssemblyReference.cache

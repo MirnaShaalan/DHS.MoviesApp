@@ -1,0 +1,12 @@
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Repository.Interfaces\bin\Debug\netstandard2.0\DHS.MoviesApp.Repository.Interfaces.deps.json
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Repository.Interfaces\bin\Debug\netstandard2.0\DHS.MoviesApp.Repository.Interfaces.dll
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Repository.Interfaces\obj\Debug\netstandard2.0\DHS.MoviesApp.Repository.Interfaces.csprojAssemblyReference.cache
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Repository.Interfaces\obj\Debug\netstandard2.0\DHS.MoviesApp.Repository.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Repository.Interfaces\obj\Debug\netstandard2.0\DHS.MoviesApp.Repository.Interfaces.AssemblyInfoInputs.cache
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Repository.Interfaces\obj\Debug\netstandard2.0\DHS.MoviesApp.Repository.Interfaces.AssemblyInfo.cs
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Repository.Interfaces\bin\Debug\netstandard2.0\DHS.MoviesApp.Repository.Interfaces.pdb
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Repository.Interfaces\bin\Debug\netstandard2.0\DHS.MoviesApp.Domain.Entities.dll
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Repository.Interfaces\bin\Debug\netstandard2.0\DHS.MoviesApp.Domain.Entities.pdb
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Repository.Interfaces\obj\Debug\netstandard2.0\DHS.MoviesApp.Repository.Interfaces.csproj.CopyComplete
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Repository.Interfaces\obj\Debug\netstandard2.0\DHS.MoviesApp.Repository.Interfaces.dll
+C:\Users\Mirna Shaalan\Desktop\DHS.MoviesApp\DHS.MoviesApp.Repository.Interfaces\obj\Debug\netstandard2.0\DHS.MoviesApp.Repository.Interfaces.pdb

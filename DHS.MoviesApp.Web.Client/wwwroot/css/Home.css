@@ -1,0 +1,39 @@
+﻿.add_button {
+    color: white !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #e35d6a;
+    padding: 5px;
+    border: 1px solid #e35d6a !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    margin-left: 1.5%;
+    font-size: 11px;
+    padding: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.add_button:hover {
+    color: white !important;
+    background: #dc3545;
+    text-decoration: none !important;
+    transition: all 0.4s ease 0s;
+}
+
+.card-title{
+    margin-top: 5px !important;
+}
+
+.delete{
+    float: right;
+}
+
+.card-text {
+    margin-top: -8px !important;
+}
+
+.close{
+    margin-top: -22px !important;
+}
+
